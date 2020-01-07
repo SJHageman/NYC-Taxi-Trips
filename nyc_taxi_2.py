@@ -104,7 +104,8 @@ def haversine(lat1, lon1, lat2, lon2):
       c = 2*np.arcsin(np.sqrt(a))
 
       return R * c
-  
+
+
 def speed(distance, duration):
 	'''
 
